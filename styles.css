@@ -15,3 +15,30 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.navbar {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 150px 150px 150px;
+  padding: 0;
+  margin: 0;
+}
+
+.navspacelarge {
+  padding: 1em 1em 1em 0;
+}
+
+.navspacesmall {
+  padding: 1em 0;
+}
+
+.imagebox {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 450px;
+}
+
+.image {
+  height: 450px;
+}
