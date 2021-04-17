@@ -6,39 +6,97 @@
 
 body {
   margin: 0;
-  background-color: rgb(32, 35, 41);
-  color: rgb(158, 158, 158);
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(73, 80, 87);
+  background-color: rgb(233, 245, 219);
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(73, 80, 87);
 }
 
 .navbar {
   list-style: none;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: auto 150px 150px 150px;
-  padding: 0;
+  grid-template-columns: 20% 20% 60%;
+  background-color: rgb(87, 204, 153);
   margin: 0;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 2rem;
 }
 
 .navspacelarge {
-  padding: 1em 1em 1em 0;
-}
-
-.navspacesmall {
   padding: 1em 0;
 }
 
 .imagebox {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: auto 450px;
+  grid-template-columns: 60% 40%;
+  padding: 0 0 0 2.5em;
+  margin: 6em 0 0 0;
+}
+
+.imageboxheadline {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.imageboxparagraph {
+  font-size: 2rem;
+  padding-right: 4em;
 }
 
 .image {
-  height: 450px;
+  width: 250px;
+}
+
+.textbox {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 60% 40%;
+  padding: 0 0 0 2.5em;
+  margin: 12em 0 0 0;
+}
+
+.textboxparagraph {
+  font-size: 1.5rem;
+  padding-right: 3em;
+}
+
+.cvbox {
+  width: 250px;
+  text-align: center;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 10px;
+  border-color: rgb(87, 204, 153);
+  border-style: solid;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profprofile {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+#contact {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.textboxtext {
+  display: flex;
+  align-items: center;
 }
