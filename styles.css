@@ -7,11 +7,13 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(73, 80, 87);
+  background-color: rgb(233, 245, 219);
 }
 
 a {
   text-decoration: none;
-  color: rgb(0, 127, 95);
+  color: rgb(73, 80, 87);
 }
 
 .navbar {
@@ -19,7 +21,7 @@ a {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 20% 20% 60%;
-  background-color: rgb(255, 255, 63);
+  background-color: rgb(87, 204, 153);
   margin: 0;
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 2rem;
@@ -29,41 +31,36 @@ a {
   padding: 1em 0;
 }
 
-.navspacesmall {
-  padding: 1em 0;
-}
-
 .imagebox {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 60% 40%;
-  color: rgb(73, 80, 87);
   padding: 0 0 0 2.5em;
-  margin: 8em 0 0 0;
-}
-
-.textbox {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 60% 40%;
-  color: rgb(73, 80, 87);
-  padding: 0 0 0 2.5em;
-  margin: 12em 0 0 0;
-}
-
-.textboxpadding {
-  padding: 2em 0;
+  margin: 6em 0 0 0;
 }
 
 .imageboxheadline {
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
   margin: 0;
+  padding-top: 2rem;
 }
 
 .imageboxparagraph {
   font-size: 2rem;
-  padding-right: 3em;
+  padding-right: 4em;
+}
+
+.image {
+  width: 250px;
+}
+
+.textbox {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 60% 40%;
+  padding: 0 0 0 2.5em;
+  margin: 12em 0 0 0;
 }
 
 .textboxparagraph {
@@ -71,29 +68,35 @@ a {
   padding-right: 3em;
 }
 
-.image {
-  width: 400px;
-}
-
 .cvbox {
-  width: 400px;
+  width: 250px;
   text-align: center;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  border-left: 1em;
-  border-color: rgb(255, 255, 63);
+  border-left: 10px;
+  border-color: rgb(87, 204, 153);
   border-style: solid;
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cvboxtext {
-  padding: 2em 0;
-}
-
-#thatsme {
+#profprofile {
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
   margin: 0;
+}
+
+#contact {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.textboxtext {
+  display: flex;
+  align-items: center;
 }
