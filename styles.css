@@ -100,3 +100,7 @@ a {
   display: flex;
   align-items: center;
 }
+
+.socialicons {
+  width: 50px;
+}
