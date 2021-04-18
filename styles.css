@@ -77,11 +77,11 @@ a {
   border-left: 10px;
   border-color: rgb(87, 204, 153);
   border-style: solid;
+  display: grid;
+  grid-auto-flow: row;
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 1rem;
 }
 
 #profprofile {
@@ -90,7 +90,7 @@ a {
   margin: 0;
 }
 
-#contact {
+#portfolio {
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
   margin: 0;
@@ -103,4 +103,33 @@ a {
 
 .socialicons {
   width: 50px;
+}
+
+.email {
+  width: 20px;
+  padding: 1em 0;
+}
+
+.contactbox {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 60% 40%;
+  padding: 0 0 0 2.5em;
+  margin: 6em 0 0 0;
+}
+
+.footer {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 20% 20% 600%;
+  background-color: rgb(87, 204, 153);
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 2rem;
+  margin: 4em 0 0 0;
+}
+
+.footerp {
+  margin: 0;
+  padding: 0;
 }
