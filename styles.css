@@ -96,26 +96,8 @@ a {
   margin: 0;
 }
 
-.textboxtext {
-  display: flex;
-  align-items: center;
-}
-
 .socialicons {
   width: 50px;
-}
-
-.email {
-  width: 20px;
-  padding: 1em 0;
-}
-
-.contactbox {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 60% 40%;
-  padding: 0 0 0 2.5em;
-  margin: 6em 0 0 0;
 }
 
 .footer {
