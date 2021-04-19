@@ -9,6 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(73, 80, 87);
   background-color: rgb(233, 245, 219);
+  font-size: 1.5rem;
 }
 
 a {
@@ -31,69 +32,51 @@ a {
   padding: 1em 0;
 }
 
-.imagebox {
+.box-rows {
+  display: grid;
+  grid-auto-flow: row;
+  margin: 2.5em;
+  row-gap: 6em;
+}
+
+.basic-box {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 60% 40%;
-  padding: 0 0 0 2.5em;
-  margin: 6em 0 0 0;
+  column-gap: 7em;
 }
 
-.imageboxheadline {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 3rem;
-  margin: 0;
-  padding-top: 2rem;
-}
-
-.imageboxparagraph {
-  font-size: 2rem;
-  padding-right: 4em;
-}
-
-.image {
-  width: 250px;
-}
-
-.textbox {
+.borderbox {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 60% 40%;
-  padding: 0 0 0 2.5em;
-  margin: 12em 0 0 0;
-}
-
-.textboxparagraph {
-  font-size: 1.5rem;
-  padding-right: 3em;
-}
-
-.cvbox {
-  width: 250px;
+  grid-auto-flow: row;
   text-align: center;
+  width: 250px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
   border-left: 10px;
   border-color: rgb(87, 204, 153);
   border-style: solid;
-  display: grid;
-  grid-auto-flow: row;
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 3rem;
-  padding-top: 1rem;
 }
 
-#profprofile {
+h1 {
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
   margin: 0;
 }
 
-#portfolio {
+h2 {
   font-family: "Annie Use Your Telescope", cursive;
   font-size: 3rem;
   margin: 0;
+}
+
+.imptext {
+  font-size: 2rem;
+}
+
+.image {
+  width: 250px;
 }
 
 .socialicons {
